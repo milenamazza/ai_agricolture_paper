@@ -1,0 +1,21 @@
+coltura,metodo,n,MAE_1giorno
+carciofo,Metropolis-Hastings,12,0.35736409679043685
+carciofo,NNLS (regressione vincolata),12,0.2112769282799114
+carciofo,Bootstrap (NNLS),12,0.24095352722779376
+carciofo,valore di libro (scala 1.0),12,0.3201064004872271
+carciofo,persistenza,12,0.21066497414438423
+mais,Metropolis-Hastings,73,2.3349329803646035
+mais,NNLS (regressione vincolata),73,2.5041195397413927
+mais,Bootstrap (NNLS),73,2.494739404780798
+mais,valore di libro (scala 1.0),73,2.3405641307206744
+mais,persistenza,73,2.5384688006036176
+melissa,Metropolis-Hastings,123,1.2538898657636317
+melissa,NNLS (regressione vincolata),123,1.2039925317969369
+melissa,Bootstrap (NNLS),123,1.2153918495707807
+melissa,valore di libro (scala 1.0),123,1.3198532860079644
+melissa,persistenza,123,0.8893362475416529
+passiflora,Metropolis-Hastings,108,1.8557014657597275
+passiflora,NNLS (regressione vincolata),108,1.8402366620306136
+passiflora,Bootstrap (NNLS),108,1.8391247106061652
+passiflora,valore di libro (scala 1.0),108,1.8713084376266318
+passiflora,persistenza,108,1.9970208078091878

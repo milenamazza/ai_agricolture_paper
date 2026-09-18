@@ -1,0 +1,8 @@
+model,feature_set,n_features,val_pinball_loss,params
+MLP-QuantileRegression-Residual-Optuna,ACQUA,50,0.134,"{""batch_size"": 64, ""dropout"": 0.37771043913105634, ""event_weight"": 6.121183913496623, ""hidden"": [32, 32], ""lr"": 0.003686750237147451}"
+MLP-QuantileRegression-Residual-Optuna,TERRA,9,0.1043,"{""batch_size"": 128, ""dropout"": 0.381069672951291, ""event_weight"": 2.7338539445628083, ""hidden"": [256, 128, 64, 32], ""lr"": 0.003604495990384513}"
+MLP-QuantileRegression-Residual-Optuna,METEO,135,0.1343,"{""batch_size"": 16, ""dropout"": 0.2214578004964788, ""event_weight"": 9.954744183704873, ""hidden"": [64, 32], ""lr"": 0.0037760003064740266}"
+MLP-QuantileRegression-Residual-Optuna,TERRA_ACQUA,59,0.1159,"{""batch_size"": 64, ""dropout"": 0.36062716197521866, ""event_weight"": 2.8939202718096926, ""hidden"": [256, 128, 64, 32], ""lr"": 0.0008168948366580677}"
+MLP-QuantileRegression-Residual-Optuna,TERRA_METEO,144,0.1336,"{""batch_size"": 32, ""dropout"": 0.3915687310334236, ""event_weight"": 9.277967457200052, ""hidden"": [128, 64, 32], ""lr"": 0.004184985801857457}"
+MLP-QuantileRegression-Residual-Optuna,ACQUA_METEO,185,0.1333,"{""batch_size"": 128, ""dropout"": 0.3591413171647531, ""event_weight"": 7.050717595589271, ""hidden"": [64, 32], ""lr"": 0.00858312487585861}"
+MLP-QuantileRegression-Residual-Optuna,TOTALE,215,0.1334,"{""batch_size"": 16, ""dropout"": 0.22757989717354277, ""event_weight"": 8.971330778971222, ""hidden"": [256, 128, 64, 32], ""lr"": 0.0020043697025602988}"

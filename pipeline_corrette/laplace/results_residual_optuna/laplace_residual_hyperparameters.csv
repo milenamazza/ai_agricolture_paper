@@ -1,0 +1,8 @@
+model,feature_set,n_features,val_NLL,params
+MLP-Laplace-Residual-Optuna,ACQUA,50,2.7172,"{""batch_size"": 64, ""dropout"": 0.2037956238326615, ""event_weight"": 4.905514278075507, ""hidden"": [32, 32], ""lr"": 0.0028931687159434692, ""prior_precision"": 1000.0}"
+MLP-Laplace-Residual-Optuna,TERRA,9,2.6454,"{""batch_size"": 64, ""dropout"": 0.25983769979037336, ""event_weight"": 1.970337004850984, ""hidden"": [256, 128, 64, 32], ""lr"": 0.0034662833063121034, ""prior_precision"": 1000.0}"
+MLP-Laplace-Residual-Optuna,METEO,135,2.7115,"{""batch_size"": 128, ""dropout"": 0.06151911392452945, ""event_weight"": 5.833158769167808, ""hidden"": [128, 64, 32], ""lr"": 0.008040334646261024, ""prior_precision"": 1000.0}"
+MLP-Laplace-Residual-Optuna,TERRA_ACQUA,59,2.501,"{""batch_size"": 128, ""dropout"": 0.25065788312521964, ""event_weight"": 2.4001358401947397, ""hidden"": [256, 128, 64, 32], ""lr"": 0.0009643624844977286, ""prior_precision"": 0.001}"
+MLP-Laplace-Residual-Optuna,TERRA_METEO,144,2.672,"{""batch_size"": 64, ""dropout"": 0.20798770942822634, ""event_weight"": 3.4901286421085063, ""hidden"": [256, 128, 64, 32], ""lr"": 0.00038093621040201776, ""prior_precision"": 0.001}"
+MLP-Laplace-Residual-Optuna,ACQUA_METEO,185,2.6567,"{""batch_size"": 16, ""dropout"": 0.10467888779104229, ""event_weight"": 9.093613091979106, ""hidden"": [64, 32], ""lr"": 0.0025500040184452902, ""prior_precision"": 7.943282347242813}"
+MLP-Laplace-Residual-Optuna,TOTALE,215,2.606,"{""batch_size"": 64, ""dropout"": 0.15511694182639948, ""event_weight"": 3.1586107143604414, ""hidden"": [64, 32], ""lr"": 0.0018273795428475168, ""prior_precision"": 0.001}"

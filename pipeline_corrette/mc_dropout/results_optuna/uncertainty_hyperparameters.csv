@@ -1,0 +1,8 @@
+model,feature_set,n_features,val_NLL,params
+MLP-Gaussian-MCDropout-Optuna,ACQUA,50,0.1001,"{""batch_size"": 16, ""dropout"": 0.11494710138211865, ""event_weight"": 2.091008267208884, ""hidden"": [32, 32], ""lr"": 0.006882268951965124}"
+MLP-Gaussian-MCDropout-Optuna,TERRA,9,-1.0857,"{""batch_size"": 32, ""dropout"": 0.08122800663014616, ""event_weight"": 1.9635593582632356, ""hidden"": [64, 32], ""lr"": 0.004684334443674078}"
+MLP-Gaussian-MCDropout-Optuna,METEO,135,0.0578,"{""batch_size"": 64, ""dropout"": 0.1760710764828525, ""event_weight"": 9.726443774425993, ""hidden"": [32, 32], ""lr"": 0.0027637996782057497}"
+MLP-Gaussian-MCDropout-Optuna,TERRA_ACQUA,59,-1.0677,"{""batch_size"": 32, ""dropout"": 0.07848423504415279, ""event_weight"": 1.774142550067737, ""hidden"": [32], ""lr"": 0.006260320009195325}"
+MLP-Gaussian-MCDropout-Optuna,TERRA_METEO,144,-0.8684,"{""batch_size"": 128, ""dropout"": 0.0662576444519992, ""event_weight"": 8.275576133048151, ""hidden"": [64, 32], ""lr"": 0.0016409286730647919}"
+MLP-Gaussian-MCDropout-Optuna,ACQUA_METEO,185,0.0461,"{""batch_size"": 64, ""dropout"": 0.16085169474479225, ""event_weight"": 4.4858449503050695, ""hidden"": [128, 64, 32], ""lr"": 0.0051867088023596734}"
+MLP-Gaussian-MCDropout-Optuna,TOTALE,215,-0.9095,"{""batch_size"": 16, ""dropout"": 0.05269776180608582, ""event_weight"": 5.018998785363539, ""hidden"": [64, 32], ""lr"": 0.0017914331391942222}"

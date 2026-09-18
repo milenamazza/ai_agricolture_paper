@@ -1,0 +1,30 @@
+# colture.csv — Parametri FAO-56 per coltura
+# ===========================================
+# Fonte Kc e fasi: FAO Irrigation and Drainage Paper 56, Allen et al. 1998
+#   - Tabella 11: durate fasi fenologiche (giorni)
+#   - Tabella 12: coefficienti Kc
+#   - Tabella 22: depletion fraction p
+#
+# Colonne:
+#   coltura   : nome coltura (deve corrispondere a COLTURA in sensori.csv, case-insensitive)
+#   kc_ini    : coefficiente colturale fase iniziale
+#   kc_mid    : coefficiente colturale piena vegetazione
+#   kc_end    : coefficiente colturale fine ciclo
+#   lini      : durata fase iniziale (giorni)
+#   ldev      : durata fase sviluppo (giorni)
+#   lmid      : durata piena vegetazione (giorni)
+#   llate     : durata maturazione/fine ciclo (giorni)
+#   fc        : field capacity suolo (% vol) — da calibrare sui dati
+#   wp        : wilting point suolo (% vol)  — da calibrare sui dati
+#   p         : depletion fraction FAO-56 Table 22
+#   mm_to_pct : fattore conversione mm -> % vol — DA CALIBRARE sui dati osservati
+#   note      : fonte o note libere
+#
+coltura,kc_ini,kc_mid,kc_end,lini,ldev,lmid,llate,fc,wp,p,mm_to_pct,note
+mais,0.30,1.20,0.50,20,25,25,10,45,18,0.55,0.1,FAO-56 Tab.11/12 mais dolce mediterraneo semina mag/giu
+sorgo,0.40,0.75,1.00,20,35,40,30,45,18,0.55,0.1,FAO-56 Tab.11/12 mediterraneo
+carciofo,0.50,1.00,0.95,40,40,250,30,45,18,0.45,0.1,FAO-56 Tab.11/12 ciclo autunno-primavera
+melissa,0.40,1.10,0.70,20,30,60,20,45,18,0.40,0.1,stima da erbe aromatiche FAO - da calibrare
+passiflora,0.50,1.05,0.80,30,40,90,30,45,18,0.45,0.1,stima da vite/frutti tropicali FAO - da calibrare
+malva,0.40,1.05,0.70,20,30,50,20,45,18,0.40,0.1,stima da erbe aromatiche FAO - da calibrare
+escolzia,0.35,0.90,0.60,15,25,40,20,45,18,0.40,0.1,stima da fiori da taglio FAO - da calibrare

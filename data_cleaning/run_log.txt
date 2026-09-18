@@ -1,0 +1,52 @@
+Carico registro e ground truth...
+
+Sensori con periodi 'dentro' definiti: [1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16, 18, 19, 20]
+
+
+
+Leggo il dump grezzo (streaming a chunk, potrebbe richiedere qualche minuto)...
+
+  chunk 1: 1,000,000 righe lette (EM dentro=361,148, WS=614,615, openmeteo=0)
+  chunk 2: 2,000,000 righe lette (EM dentro=665,926, WS=614,615, openmeteo=0)
+  chunk 3: 3,000,000 righe lette (EM dentro=931,345, WS=1,229,230, openmeteo=0)
+  chunk 4: 4,000,000 righe lette (EM dentro=1,315,225, WS=1,229,230, openmeteo=0)
+  chunk 5: 5,000,000 righe lette (EM dentro=1,340,105, WS=1,990,190, openmeteo=0)
+  chunk 6: 6,000,000 righe lette (EM dentro=1,340,105, WS=2,990,190, openmeteo=0)
+  chunk 7: 7,000,000 righe lette (EM dentro=1,910,589, WS=3,073,078, openmeteo=0)
+  chunk 8: 8,000,000 righe lette (EM dentro=2,009,145, WS=3,488,353, openmeteo=0)
+  chunk 9: 9,000,000 righe lette (EM dentro=2,009,145, WS=4,488,353, openmeteo=0)
+  chunk 10: 10,000,000 righe lette (EM dentro=2,570,496, WS=4,916,934, openmeteo=0)
+  chunk 11: 11,000,000 righe lette (EM dentro=3,445,112, WS=4,916,934, openmeteo=0)
+  chunk 12: 12,000,000 righe lette (EM dentro=3,987,017, WS=4,916,934, openmeteo=0)
+  chunk 13: 13,000,000 righe lette (EM dentro=4,194,859, WS=4,916,934, openmeteo=0)
+  chunk 14: 14,000,000 righe lette (EM dentro=4,312,817, WS=4,916,934, openmeteo=0)
+  chunk 15: 15,000,000 righe lette (EM dentro=4,683,321, WS=4,916,934, openmeteo=0)
+  chunk 16: 16,000,000 righe lette (EM dentro=4,697,113, WS=5,462,449, openmeteo=0)
+  chunk 17: 17,000,000 righe lette (EM dentro=4,697,113, WS=6,462,449, openmeteo=0)
+  chunk 18: 18,000,000 righe lette (EM dentro=4,697,113, WS=7,377,022, openmeteo=85,427)
+  chunk 19: 19,000,000 righe lette (EM dentro=4,697,113, WS=7,377,022, openmeteo=1,085,427)
+  chunk 20: 19,985,241 righe lette (EM dentro=4,697,798, WS=7,377,022, openmeteo=2,069,665)
+
+
+Righe salvate: EM (dentro)=4,697,798  WS (complete)=7,377,022  openmeteo (complete)=2,069,665
+
+
+
+Costruisco le serie derivate...
+
+
+
+Genero i grafici di temperatura (sensore sopra, WS sotto)...
+
+  Salvati in 'C:\Users\milen\Desktop\trace\AI_agricolture_paper\data_cleaning\plots_temperatura/'
+
+
+
+Genero i grafici di umidità suolo + pioggia...
+
+  Salvati in 'C:\Users\milen\Desktop\trace\AI_agricolture_paper\data_cleaning\plots_moisture_pioggia/'
+
+
+
+Fatto. Dataset in 'C:\Users\milen\Desktop\trace\AI_agricolture_paper\data_cleaning\dataset_pulito.csv'.
+

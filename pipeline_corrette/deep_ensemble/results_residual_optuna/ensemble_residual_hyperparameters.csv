@@ -1,0 +1,8 @@
+model,feature_set,n_features,n_ensemble_members,val_NLL_single_member,params
+MLP-Gaussian-DeepEnsemble-Residual-Optuna,ACQUA,50,5,-0.0959,"{""batch_size"": 16, ""dropout"": 0.1290995421764955, ""event_weight"": 3.6955261832228947, ""hidden"": [64, 32], ""lr"": 0.000844674078842654}"
+MLP-Gaussian-DeepEnsemble-Residual-Optuna,TERRA,9,5,-0.1688,"{""batch_size"": 64, ""dropout"": 0.25983769979037336, ""event_weight"": 1.970337004850984, ""hidden"": [256, 128, 64, 32], ""lr"": 0.0034662833063121034}"
+MLP-Gaussian-DeepEnsemble-Residual-Optuna,METEO,135,5,-0.063,"{""batch_size"": 128, ""dropout"": 0.09913050451282202, ""event_weight"": 3.5558968391405656, ""hidden"": [32, 32], ""lr"": 0.0069415763661331105}"
+MLP-Gaussian-DeepEnsemble-Residual-Optuna,TERRA_ACQUA,59,5,-0.3122,"{""batch_size"": 32, ""dropout"": 0.24479538034231402, ""event_weight"": 1.4956785589107793, ""hidden"": [64, 32], ""lr"": 0.0017862256323743263}"
+MLP-Gaussian-DeepEnsemble-Residual-Optuna,TERRA_METEO,144,5,-0.1153,"{""batch_size"": 64, ""dropout"": 0.2104239814580121, ""event_weight"": 7.4580689506908, ""hidden"": [256, 128, 64, 32], ""lr"": 0.0004490071281743231}"
+MLP-Gaussian-DeepEnsemble-Residual-Optuna,ACQUA_METEO,185,5,-0.1309,"{""batch_size"": 128, ""dropout"": 0.23145703299469436, ""event_weight"": 9.635616641901773, ""hidden"": [64, 32], ""lr"": 0.0049879779778427375}"
+MLP-Gaussian-DeepEnsemble-Residual-Optuna,TOTALE,215,5,-0.1927,"{""batch_size"": 128, ""dropout"": 0.1279872702822926, ""event_weight"": 4.965214649423211, ""hidden"": [256, 128, 64, 32], ""lr"": 0.0008668460277811317}"
