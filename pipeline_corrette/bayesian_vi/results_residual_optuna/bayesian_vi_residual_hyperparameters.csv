@@ -1,0 +1,8 @@
+model,feature_set,n_features,val_NLL,params
+MLP-BayesianVI-Residual-Optuna,ACQUA,50,-0.0718,"{""batch_size"": 64, ""event_weight"": 5.744986227138747, ""hidden"": [64, 32], ""kl_weight"": 0.0066118466010711, ""lr"": 0.0036323341529233893, ""prior_sigma"": 0.7207463124024339}"
+MLP-BayesianVI-Residual-Optuna,TERRA,9,-0.1336,"{""batch_size"": 16, ""event_weight"": 3.1913393039074, ""hidden"": [256, 128, 64, 32], ""kl_weight"": 1.5265882068854278e-06, ""lr"": 0.0017486089660400104, ""prior_sigma"": 0.4649214961747768}"
+MLP-BayesianVI-Residual-Optuna,METEO,135,-0.1224,"{""batch_size"": 128, ""event_weight"": 6.079024408282466, ""hidden"": [64, 32], ""kl_weight"": 1.0841736101767168e-06, ""lr"": 0.005760723566400329, ""prior_sigma"": 0.2733762389478877}"
+MLP-BayesianVI-Residual-Optuna,TERRA_ACQUA,59,-0.2921,"{""batch_size"": 128, ""event_weight"": 5.845513041605598, ""hidden"": [256, 128, 64, 32], ""kl_weight"": 5.3389493010091485e-05, ""lr"": 0.009513556028821132, ""prior_sigma"": 0.3210894154252309}"
+MLP-BayesianVI-Residual-Optuna,TERRA_METEO,144,-0.1306,"{""batch_size"": 128, ""event_weight"": 4.878815042192649, ""hidden"": [256, 128, 64, 32], ""kl_weight"": 0.027450876579907118, ""lr"": 0.003963361069734768, ""prior_sigma"": 0.16007366114373575}"
+MLP-BayesianVI-Residual-Optuna,ACQUA_METEO,185,-0.1494,"{""batch_size"": 64, ""event_weight"": 8.394389069160477, ""hidden"": [256, 128, 64, 32], ""kl_weight"": 0.000660855803864428, ""lr"": 0.0032712338414913698, ""prior_sigma"": 0.28200269386812277}"
+MLP-BayesianVI-Residual-Optuna,TOTALE,215,-0.1557,"{""batch_size"": 128, ""event_weight"": 4.035847382748331, ""hidden"": [256, 128, 64, 32], ""kl_weight"": 0.019390065837396407, ""lr"": 0.002196615166815936, ""prior_sigma"": 0.1774637163600228}"
